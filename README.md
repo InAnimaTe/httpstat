@@ -1,4 +1,6 @@
-# httpstat
+# httpstat (with Dockerfile/build)
+
+> This version includes a Dockerfile and Docker Hub build `inanimate/httpstat` that builds a docker image from the upstream `davecheney/httpstat` repo. Hence you can `docker run -ti inanimate/httpstat github.com`
 
 [![Build Status](https://travis-ci.org/davecheney/httpstat.svg?branch=master)](https://travis-ci.org/davecheney/httpstat)
 
